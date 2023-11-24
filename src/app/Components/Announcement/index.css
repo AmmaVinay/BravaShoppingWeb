@@ -1,0 +1,13 @@
+.top-color {
+    background-color: #ffcc00;
+    padding: 10px;
+    border: 1px solid #000;
+  }
+  
+  .top-color h1 {
+    color: #333;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  

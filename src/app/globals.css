@@ -1,7 +1,15 @@
+/* Import Bootstrap first */
+
+/* Then include Tailwind CSS directives */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/* styles/globals.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+ 
+/* Your custom styles */
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
